@@ -1,0 +1,30 @@
+# 数据文件
+*.json
+!package.json
+
+# 图表和报告
+*.png
+*.md
+!README.md
+!CHANGELOG.md
+!CLAUDE.md
+
+# Excel标注文件
+*.xlsx
+
+# 环境配置
+.env
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 浏览器数据
+browser_data/
+.playwright-mcp/
+
+# 临时文件
+~$*
+*.tmp
